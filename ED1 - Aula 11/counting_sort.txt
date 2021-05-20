@@ -1,0 +1,18 @@
+Exercício 2
+
+Sim, apesar de serem trocados os parâmetros o algoritmo continua funcionando igualmente ao 
+esperado inicialmente. Ou seja, o mesmo mantém as mesmas propriedades.
+
+Exercício 3
+
+Counting-Sort (A[] , n, B[], k, a, b)
+  para i = até k faça
+    C[i] = 0;
+  para j = 0 até n-1 faça
+    C[A[j]] = C[A[j]]+1;
+  para i = a até b faça
+    aux = 0;
+    aux += C[i];
+
+**sendo a e b os intervalos a serem analisados, além de que a variável auxiliar é importante para
+armazenar a soma de valores que há entre o intervalo analisado.
